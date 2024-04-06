@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*modificamos el navegador*/
+.container-fluid{
+    background-color: #99DDC8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* imagen adentro del Navbar*/
+.navbar-brand{
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+/*links adentro del nav bar*/
+.nav-link a{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+/*cuando posicionamos el mouse adentro del link*/
+.nav-link:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+/*header con un h1 y un parrafo*/
+.encabezado-index{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+/*modificamos el h1 del encabezado*/
+.encabezado-index-titulo{
+    font-size: 20px;
+    color: #95BF74;
+    font-weight: bolder;
+}
+/*parrafo del encabezado del index*/
+.encabezado-index-par{
+    font-size: 15px;
+    color: gray;
+}
+/* seccion con imagen y div*/
+.seccion-ofrecemos{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+/*img dentro de la seccion*/
+.seccion-ofrecemos-img{
+    height: 80%;
+    width: 60%;
+    margin-left: 100px;
+}
+
+/*div con el h1 y parrafors*/
+.seccion-ofrecemos-texto{
+    background-color: #659b5e;
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+}
+
+/*h1 dentro del div de la seccion*/
+.seccion-ofrecemos-titulo{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*parrafo adentro del div*/
+.seccion-ofrecemos-parrafo{
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+/*seccion sobre opiniones*/
+.seccion-opiniones{
+    width: 100%;
+    height: 500px;
+    background: #659b5e;
+    padding: 15px;
+    gap: 30px;
+    position: relative;
+}
+/*divs con los h1,p e img adentro*/
+.seccion-opinion{
+    margin: 10px;
+    width: 35%;
+}
+/*img adentros de los div de opinion*/
+.seccion-opiniones-img{
+    width: 200px;
+    height: 30px;
+}
+/*titulos dentro de los divs de opiniones*/
+.seccion-opinion-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/*img adentro de la seccion opiniones*/
+.seccion-opinion-img{
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+/*parrafos adentro de la seccion opiniones*/
+.seccion-opinion-parrafo{
+    color: white;
+    font-size: 15px;
+}
+/*editamos el footer*/
+.pie-pagina{
+    background-color: #99DDC8;
+    width: 100%;
+    margin-top: 150px;
+    padding: 15px;
+}
+/*div con las redes del footer*/
+.redes-sociales{
+    color: gray;
+    font-weight: bold;
+}
+/*modificamos el instagram del footer*/
+.redes-sociales-insta{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*editamos el copyright del pie de pagina*/
+.pie-pagina-parrafo{
+    color: gray;
+    font-weight: bold;
+}
