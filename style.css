@@ -149,3 +149,144 @@
     color: gray;
     font-weight: bold;
 }
+/* imagen adentro de todos los encabezados */
+.encabezado-img{
+    width: 100%;
+    height: 500px;
+}
+
+/*modificamos encabezado lofts*/
+.encabezado-lofts{
+    width: 100%;
+    background-color: #95BF74;
+}
+
+/*DIV con el h1 y ul del encabezado lofts*/
+.encabezado-lofts-texto{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+/*modificamos h1 del encabezado de lofts*/
+.encabezado-titulo{
+    margin-left: 25px;
+    text-decoration: underline;
+    color: #283F3B;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*modificamos ul que contiene li y a de encabezado lofts*/
+.encabezado-listas{
+    list-style: square;
+    color: gray;
+}
+
+/*modificamos li de encabezado lofts*/
+.encabezado-lista{
+    margin: 20px 10px;
+}
+
+/*modificamos a del encabezado de lofts*/
+.encabezado-lista-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    list-style: square;
+    text-decoration: none;
+}
+
+/*cuando nos posicionamos sobre los links (a) del encabezado*/
+.lista-encabezado-text:hover{
+    transition: 0.5s;
+    color: black ;
+}
+
+/*section del loft 3*/
+.principal-loft3{
+    background-color: #659B5E;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*modificamos div con h2 y p del loft 3*/
+.texto-loft3{
+    width: 30%;
+}
+
+/*cambiamos la section de loft4*/
+.principal-loft4{
+    background-color: #556F44;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*cambiamos h2 y p del loft4*/
+.texto-loft4{
+    width: 30%;
+}
+
+/*modificamos el estilo de todos los h2*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #d7c0c4;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: left;
+}
+
+/*modificamos los parrafos de ambos lofts 3 y 4*/
+.parrafo-loft{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 25px;
+}
+/* iframe de los videos de loft 3 y loft4*/
+.video-loft{
+    width: 500px; 
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+/*modificamos la section de incluyen*/
+.principal-incluye{
+    background-color: #283F3B;
+    display: flex;
+    width: 100%;
+}
+
+/* div que incluye h2, ul, li de servicios del archivo lofts*/
+.servicios{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/*modificamos los parrafos de la seccion incluye en los lofts*/
+.incluye-listas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*modificamos el li del ul del main de lofts*/
+.incluye-lista{
+    padding: 10px;
+}

@@ -37,7 +37,89 @@
       </div>
     </div>
   </nav>
-    
+  
+    <!--encabezado con imagen,titulo y navegador interno-->
+  <header class="encabezado-lofts d-flex flex-column">
+    <img class="encabezado-img" src="./img/LoftEncabezado.jpg" alt="Loft ubicado en san clemente cordoba">
+    <!-- indice dentro del encabezado que nos dirige a las distintas secciones dentro del mismo archivo-->
+    <div class="encabezado-lofts-texto">
+      <h1 class="encabezado-titulo">INDICE</h1>
+        <ul class="encabezado-listas d-flex flex-column flex-wrap">
+          <li class="encabezado-lista"><a class="encabezado-lista-text" href="#loft-indice3">Loft apto para tres personas</a></li>
+          <li class="encabezado-lista"><a class="encabezado-lista-text" href="#loft-indice4">Loft apto para cuatro personas</a></li>
+          <li class="encabezado-lista"><a class="encabezado-lista-text" href="#incluye-indice">Incluye</a></li>
+        </ul>
+    </div>    
+  </header>
+
+  <!--main con las distintas secciones-->
+  <main class="main-lofts">
+    <!--seccion que hace refenrencia al loft para 3 personas-->
+    <section class="principal-loft3">
+      <!--div que hace referencia al texto adentro de la seccion loft 3-->
+      <div class="texto-loft3">
+        <h2 id="loft-indice3">Loft apto para tres personas</h2>
+          <p class="parrafo-loft">Este loft disponible para hasta 3 personas, cuenta con un dormitorio, un living-comedor, 
+            cocina, un baño y una terraza.El dormitorio consta de dos camas indivudales
+            y un placard.</p>
+          <p class="parrafo-loft">El living-comedor esta compuesto por una mesa de comedor, 
+            un sillon-cama y un televisor </p>
+          <p class="parrafo-loft">Luego encontramos una cocina completamente equipada y junto a ella
+            un baño con ducha</p>
+          <p class="parrafo-loft">Por ultimo, tiene una terraza equipada con una mesa de comedor 
+            y un fogonero para cocinar o calentarse en invierno</p>
+      </div>
+      <!--iframe con video traido de youtube-->    
+      <iframe class="video-loft" src="https://www.youtube.com/embed/m5AP5YWVGKo?si=sM8JVTSev5poAWhB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+    </section>
+    <!--seccion para identificar al loft para 4 personas-->
+    <section class="principal-loft4">
+      <!--div que hace referencia al texto en la seccion del loft4-->
+      <div class="texto-loft4">      
+         <h2 id="loft-indice4">Loft apto para cuatro personas</h2>
+            <p class="parrafo-loft">Este loft disponible para hasta 4 personas, cuenta con un dormitorio, un living-comedor, cocina, 
+              un baño y una terraza.El dormitorio consta de dos camas indivudales y un placard.</p>
+            <p class="parrafo-loft">El living-comedor esta compuesto por una mesa de comedor,un sillon-cama y un televisor </p>
+            <p class="parrafo-loft">Luego encontramos una cocina completamente equipada y junto a ella un baño con ducha</p>
+            <p class="parrafo-loft">Por ultimo, tiene una terraza equipada con una mesa de comedor y una parrilla para cocinar</p>
+      </div>
+      <!--iframe con video traido de youtube-->    
+      <iframe class="video-loft"  src="https://www.youtube.com/embed/wx3J5p0QMCA?si=tp-VVyCpfoPz9KSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+    </section> 
+    <!--seccion sobre lo que incluyen ambos lofts-->
+    <section class="principal-incluye">   
+    <!--div que contiene los elementos de las seccion de  lo que incluyen ambos lofts-->
+      <div class="servicios">
+        <h2 id="incluye-indice">Incluye en ambos lofts</h2>
+          <ul class="incluye-listas">
+            <li class="incluye-lista">Juego de ropa blanca</li>
+            <li class="incluye-lista">Acceso exclusivo al Rio San Jose</li>
+            <li class="incluye-lista">Dos reposeras para rio</li>
+            <li class="incluye-lista">Televisor con DirecTV</li>
+            <li class="incluye-lista">Asador</li>
+            <li class="incluye-lista">Cochera techada para un auto</li>
+            <li class="incluye-lista">Horno electrico</li>
+          </ul>
+          <ul class="incluye-listas">  
+            <li class="incluye-lista">Hornallas</li>
+            <li class="incluye-lista">Microondas</li>
+            <li class="incluye-lista">Tostadora</li>
+            <li class="incluye-lista">Licuadora</li>
+            <li class="incluye-lista">Pava electrica</li>
+            <li class="incluye-lista">Heladera</li>
+          </ul> 
+      </div>     
+    </section>
+  </main>       
+  <!--footer-->
+  <footer class="pie-pagina d-flex flex-column ">
+    <div class="redes-sociales d-flex flex-column">
+      <i class="bi bi-telephone">3514039535</i>
+      <a class="redes-sociales-insta" href="https://www.instagram.com/sanclementelofts/" target="_blank"><i class="bi bi-instagram">sanclementelofts</i></a>
+      <i class="bi bi-envelope">sanclementelofts@gmail.com</i>
+    </div>   
+    <p class="pie-pagina-parrafo align-self-center">Copyright 2024© Mateo Sanchez Mauro</p>
+  </footer>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>
