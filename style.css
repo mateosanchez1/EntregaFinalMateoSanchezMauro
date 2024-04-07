@@ -315,3 +315,72 @@
     text-decoration: underline;
     text-align: left;    
 }
+
+/*modificamos encabezado de experiencias*/
+.encabezado-exp{
+    background-color: #95BF74;
+}
+
+/* modificamos el main de experiencias*/
+.principal-experiencias{
+    background-color: #659B5E;
+    width: 100%;
+    padding: 10px;
+}
+/*seccion del main de experinecias con h1 y p*/
+.section-experiencias{
+    width: 90%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    border: 2px solid white
+}
+
+/*modificamos el h1 del archivo experiencias*/
+.titulo-experiencias{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:  white;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: left;        
+}
+
+/*modificamos los parrafos dentro del main del archivo experiencias*/
+.parrafo-exp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px; 
+}
+/*aside de experiencias*/
+.secundario-exp{
+    width: 100%;
+}
+
+/*modifcamos primera imagen del aside de experiencias*/
+.img-exp1{
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid gray;
+    margin: 10px;
+}
+/*modifcamos segunda imagen del aside de experiencias*/
+.img-exp2{
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid gray;
+    margin: 10px;
+}
+/*modifcamos tercera imagen del aside de experiencias*/
+.img-exp3{
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid gray;
+    margin: 10px;
+}
