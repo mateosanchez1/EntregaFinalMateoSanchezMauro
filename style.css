@@ -625,6 +625,7 @@
     /*seccion sobre opiniones*/
     .seccion-opiniones{
         height: 900px;
+        background-color:   #283F3B;
         padding: 15px;
         margin-top: 600px;
         gap: 10px;
