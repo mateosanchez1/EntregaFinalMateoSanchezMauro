@@ -152,6 +152,7 @@
 .redes-sociales{
     color: gray;
     font-weight: bold;
+    text-decoration: none;
 }
 /*modificamos el instagram del footer*/
 .redes-sociales-insta{
@@ -448,10 +449,10 @@
 }
 /*h1 dentro del encabezado de consultas*/
 .titulo-consultas{
-    background-color: #95BF74;
+    background-color: #5c8578;
     width: 100%;
     font-size: 30px;
-    color: #283F3B;
+    color: white;
     text-align: center;
     text-decoration: underline;
     margin-top: 95px;
@@ -461,7 +462,7 @@
 
 /*modificamos el color del main de consultas*/
 .principal-consultas{
-    background-color: #95BF74;
+    background-color: #5c8578;
     width: 100%;
     gap: 200px;
     padding-bottom: 30px;
@@ -479,25 +480,26 @@
     width: 40%;
 }
 /* div del formulario de consultas*/
-.nombre-usuario{
+.formulario-usuario-grupo{
     padding-top: 10px;
     width: 90%;
 }
-/* div del formulario de consultas*/
-.email-usuario{
-    padding-top: 10px;
-    width: 90%;  
+.formulario-usuario-grupo-input{
+    border: 1px solid white;
 }
-/* div del formulario de consultas*/
-.tel-usuario{
-    padding-top: 10px;
-    width: 90%;  
+/*modificamos los imput del formulario al hacerle click*/
+.formulario-usuario-grupo-input:focus{
+    outline: none;
 }
-/* div del formulario de consultas*/
-.text-usuario{
-    padding-top: 10px;
-    width: 90%;  
+
+/*modificamos el boton para enviar el formulario*/
+.boton-enviar{
+    border-radius: 5px;
+    padding: 2px 5px 2px 2px;
+    background-color: white;
+    color: black;
 }
+
 /*imagen en el main de consultas*/
 .img-consulta{
     width: 300px;

@@ -49,28 +49,28 @@
   <main class="principal-consultas d-flex flex-wrap">
     <form class="formulario-usuario d-flex flex-column">
       <!--div que hace referencia al nombre y apellido del usuario-->
-      <div class="nombre-usuario d-flex flex-column">          
-        <label for="nombre-apellido"> Nombre y Apellido</label>
-        <input type="text" name="nombre-apellido" id="" placeholder="Nombre y Apellido">
+      <div class="formulario-usuario-grupo d-flex flex-column">          
+        <label class="formulario-usuario-grupo-label" for="nombre-apellido"> Nombre y Apellido</label>
+        <input class="formulario-usuario-grupo-input" type="text" name="nombre-apellido" id="name" placeholder="Nombre y Apellido">
       </div>
       <!--div que hace referencia al email del usuario-->
-      <div class="email-usuario d-flex flex-column">          
-        <label for="email-usuario">Email</label>
-        <input type="email" name="email-usuario" id="" placeholder="Ingrese su email">
+      <div class="formulario-usuario-grupo d-flex flex-column">          
+        <label class="formulario-usuario-grupo-label" for="email-usuario">Email</label>
+        <input class="formulario-usuario-grupo-input" type="email" name="email-usuario" id="email" placeholder="Ingrese su email">
       </div>
       <!--div que hace referencia al numero de telefono del usuario-->
-      <div class="tel-usuario d-flex flex-column">
-        <label for="numeroTel">Telefono</label>
-        <input type="tel" name="numeroTel" id="" placeholder="Ingrese su numero de telefono">
+      <div class="formulario-usuario-grupo d-flex flex-column">
+        <label class="formulario-usuario-grupo-label" for="numeroTel">Telefono</label>
+        <input class="formulario-usuario-grupo-input" type="tel" name="numeroTel" id="tel" placeholder="Ingrese su numero de telefono">
       </div>
       <!--div que hace referencia al cuadro de texto para que el usuario envie su consulta-->
-      <div class="text-usuario d-flex flex-column">
-        <label for="texto">Consulta</label>
-        <textarea name="texto" id="" cols="30" rows="10" placeholder="escriba su consulta"></textarea>
+      <div class="formulario-usuario-grupo d-flex flex-column">
+        <label class="formulario-usuario-grupo-label" for="texto">Consulta</label>
+        <textarea class="formulario-usuario-grupo-input" name="texto" id="textarea" cols="30" rows="10" placeholder="escriba su consulta"></textarea>
       </div>
       <!--div que hace referencia al input para que pueda el usuario enviar el formulario-->
       <div>
-        <input type="submit" value=" Enviar"> 
+        <input class="boton-enviar" type="submit" value=" Enviar"> 
       </div>
     </form>
     <!--imagen adentro del main de consultas-->
