@@ -1,0 +1,35 @@
+/*modificamos el navegador*/
+.container-fluid{
+    background-color: #99DDC8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 10px;
+}
+
+/* imagen adentro del Navbar*/
+.navbar-brand{
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+}
+
+/*modificamos li de la navbar*/
+.nav-item{
+    font-size: 15px;
+    color: white;
+    padding-right: 10px;
+}
+/*links adentro del nav bar*/
+.nav-link a{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-right: 25px;
+}
+/*cuando posicionamos el mouse adentro del link*/
+.nav-link:hover{
+    background-color: white;
+    transition: 0.5s;
+}

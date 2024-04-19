@@ -1,0 +1,40 @@
+/*cambiamos la section de loft4*/
+.principal-loft4{
+    background-color: #556F44;
+    width: 100%;
+    padding: 30px;
+}    
+
+/*DIV con h2 y p del loft4*/
+.texto-loft4{
+    width: 400px;
+}
+
+/*modificamos el titulo h3 del loft4*/
+#loft-indice4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 400px;
+    color: #d7c0c4;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: left;
+}
+
+/*modificamos los parrafos de ambos lofts 3 y 4*/
+.parrafo-loft{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 25px;
+}
+/* iframe de los videos de loft 3 y loft4*/
+.video-loft{
+    width: 500px; 
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid white;
+}

@@ -1,0 +1,39 @@
+/*modificamos la section de incluyen*/
+.principal-incluye{
+    background-color: #283F3B;
+    width: 100%;
+}
+
+/* div que incluye h2, ul, li de servicios del archivo lofts*/
+.servicios{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/*modificamos los parrafos de la seccion incluye en los lofts*/
+.incluye-listas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*modificamos el li del ul del main de lofts*/
+.incluye-lista{
+    padding: 10px;
+}
+
+/*modificamos h4 de la seccion servicion de loft*/
+#incluye-indice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 400px;
+    color: #d7c0c4;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-align: left;    
+}

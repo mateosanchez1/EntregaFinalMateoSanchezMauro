@@ -1,0 +1,39 @@
+/*seccion sobre opiniones*/
+.seccion-opiniones{
+    width: 100%;
+    height: 500px;
+    background: #283F3B;
+    padding: 15px;
+    gap: 50px;
+    position: relative;
+}
+/*divs con los h1,p e img adentro*/
+.seccion-opinion{
+    margin: 10px;
+    width: 35%;
+}
+/*img adentros de los div de opinion*/
+.seccion-opiniones-img{
+    width: 150px;
+    height: 30px;
+}
+/*titulos dentro de los divs de opiniones*/
+.seccion-opinion-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/*img adentro de la seccion opiniones*/
+.seccion-opinion-img{
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+/*parrafos adentro de la seccion opiniones*/
+.seccion-opinion-parrafo{
+    color: white;
+    font-size: 15px;
+}

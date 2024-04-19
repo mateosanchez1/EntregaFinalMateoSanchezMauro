@@ -1,0 +1,38 @@
+/* seccion con imagen y div*/
+.seccion-ofrecemos{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+/*img dentro de la seccion*/
+.seccion-ofrecemos-img{
+    height: 80%;
+    width: 60%;
+    margin-left: 100px;
+}
+
+/*div con el h1 y parrafors*/
+.seccion-ofrecemos-texto{
+    background-color: #659b5e;
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
+}
+
+/*h1 dentro del div de la seccion*/
+.seccion-ofrecemos-titulo{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*parrafo adentro del div*/
+.seccion-ofrecemos-parrafo{
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}

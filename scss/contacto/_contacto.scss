@@ -1,0 +1,30 @@
+/*h1 dentro del encabezado de consultas*/
+.titulo-consultas{
+    background-color: #5c8578;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+/*modificamos el color del main de consultas*/
+.principal-consultas{
+    background-color: #5c8578;
+    width: 100%;
+    gap: 200px;
+    padding-bottom: 30px;
+}
+
+/*imagen en el main de consultas*/
+.img-consulta{
+    width: 300px;
+    height: 430px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}

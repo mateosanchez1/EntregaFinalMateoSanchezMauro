@@ -1,708 +1,734 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 /*modificamos el navegador*/
-.container-fluid{
-    background-color: #99DDC8;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding: 10px;
+.container-fluid {
+  background-color: #99DDC8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
 }
 
 /* imagen adentro del Navbar*/
-.navbar-brand{
-    width: 150px;
-    height: 60px;
-    margin: 10px;
+.navbar-brand {
+  width: 150px;
+  height: 60px;
+  margin: 10px;
 }
 
 /*modificamos li de la navbar*/
-.nav-item{
-    font-size: 15px;
-    color: white;
-    padding-right: 10px;
+.nav-item {
+  font-size: 15px;
+  color: white;
+  padding-right: 10px;
 }
+
 /*links adentro del nav bar*/
-.nav-link a{
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    margin-right: 25px;
+.nav-link a {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-right: 25px;
 }
+
 /*cuando posicionamos el mouse adentro del link*/
-.nav-link:hover{
-    background-color: white;
-    transition: 0.5s;
+.nav-link:hover {
+  background-color: white;
+  transition: 0.5s;
 }
+
 /*header con un h1 y un parrafo*/
-.encabezado-index{
-    width: 100%;
-    margin-top: 120px;
-    margin-bottom: 15px;
+.encabezado-index {
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 15px;
 }
+
 /*modificamos el h1 del encabezado*/
-.encabezado-index-titulo{
-    font-size: 20px;
-    color: #95BF74;
-    font-weight: bolder;
+.encabezado-index-titulo {
+  font-size: 20px;
+  color: #95BF74;
+  font-weight: bolder;
 }
+
 /*parrafo del encabezado del index*/
-.encabezado-index-par{
-    font-size: 15px;
-    color: gray;
+.encabezado-index-par {
+  font-size: 15px;
+  color: gray;
 }
+
 /* seccion con imagen y div*/
-.seccion-ofrecemos{
-    width: 100%;
-    height: 700px;
-    display: flex;
+.seccion-ofrecemos {
+  width: 100%;
+  height: 700px;
+  display: flex;
 }
 
 /*img dentro de la seccion*/
-.seccion-ofrecemos-img{
-    height: 80%;
-    width: 60%;
-    margin-left: 100px;
+.seccion-ofrecemos-img {
+  height: 80%;
+  width: 60%;
+  margin-left: 100px;
 }
 
 /*div con el h1 y parrafors*/
-.seccion-ofrecemos-texto{
-    background-color: #659b5e;
-    width: 500px;
-    height: 500px;
-    padding: 15px;
-    position: absolute;
-    left: 600px;
-    top: 250px;
+.seccion-ofrecemos-texto {
+  background-color: #659b5e;
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  position: absolute;
+  left: 600px;
+  top: 250px;
 }
 
 /*h1 dentro del div de la seccion*/
-.seccion-ofrecemos-titulo{
-    font-size: 20px;
-    color: white;
-    font-weight: bolder;
+.seccion-ofrecemos-titulo {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
 }
 
 /*parrafo adentro del div*/
-.seccion-ofrecemos-parrafo{
-    font-size: 18px;
-    color: white;
-    padding: 10px;
+.seccion-ofrecemos-parrafo {
+  font-size: 18px;
+  color: white;
+  padding: 10px;
 }
+
 /*seccion sobre opiniones*/
-.seccion-opiniones{
-    width: 100%;
-    height: 500px;
-    background: #283F3B;
-    padding: 15px;
-    gap: 50px;
-    position: relative;
+.seccion-opiniones {
+  width: 100%;
+  height: 500px;
+  background: #283F3B;
+  padding: 15px;
+  gap: 50px;
+  position: relative;
 }
+
 /*divs con los h1,p e img adentro*/
-.seccion-opinion{
-    margin: 10px;
-    width: 35%;
+.seccion-opinion {
+  margin: 10px;
+  width: 35%;
 }
+
 /*img adentros de los div de opinion*/
-.seccion-opiniones-img{
-    width: 150px;
-    height: 30px;
+.seccion-opiniones-img {
+  width: 150px;
+  height: 30px;
 }
+
 /*titulos dentro de los divs de opiniones*/
-.seccion-opinion-titulo{
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+.seccion-opinion-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
+
 /*img adentro de la seccion opiniones*/
-.seccion-opinion-img{
-    width: 40%;
-    height: 400px;
-    object-fit: cover;
-    position: absolute;
-    top: 250px;
-    left: 600px;
+.seccion-opinion-img {
+  width: 40%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 250px;
+  left: 600px;
 }
+
 /*parrafos adentro de la seccion opiniones*/
-.seccion-opinion-parrafo{
-    color: white;
-    font-size: 15px;
+.seccion-opinion-parrafo {
+  color: white;
+  font-size: 15px;
 }
+
 /*editamos el footer*/
-.pie-pagina-index{
-    background-color: #99DDC8;
-    width: 100%;
-    margin-top: 150px;
-    padding: 15px;
+.pie-pagina-index {
+  background-color: #99DDC8;
+  width: 100%;
+  margin-top: 150px;
+  padding: 15px;
 }
 
 /*editamos pie de pagina de los demas*/
-.pie-pagina{
-    background-color: #8dd3bd;
-    width: 100%;
-    padding: 15px;
+.pie-pagina {
+  background-color: #8dd3bd;
+  width: 100%;
+  padding: 15px;
 }
 
 /*div con las redes del footer*/
-.redes-sociales{
-    color: gray;
-    font-weight: bold;
-    text-decoration: none;
+.redes-sociales {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 /*modificamos el instagram del footer*/
-.redes-sociales-insta{
-    color: gray;
-    text-decoration: none;
-    font-weight: bold;
+.redes-sociales-insta {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
 }
+
 /*editamos el copyright del pie de pagina*/
-.pie-pagina-parrafo{
-    color: gray;
-    font-weight: bold;
+.pie-pagina-parrafo {
+  color: gray;
+  font-weight: bold;
 }
+
 /* imagen adentro de todos los encabezados */
-.encabezado-img{
-    width: 100%;
-    height: 500px;
+.encabezado-img {
+  width: 100%;
+  height: 500px;
 }
 
 /*modificamos encabezado lofts*/
-.encabezado-lofts{
-    width: 100%;
-    background-color: #95BF74;
+.encabezado-lofts {
+  width: 100%;
+  background-color: #95BF74;
 }
 
 /*DIV con el h1 y ul del encabezado lofts*/
-.encabezado-lofts-texto{
-    background-color: white;
-    width: 400px;
-    padding: 10px;
-    margin: 20px;
-    border: 1px solid gray;
+.encabezado-lofts-texto {
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid gray;
 }
 
 /*modificamos h1 del encabezado de lofts*/
-.encabezado-titulo{
-    margin-left: 25px;
-    text-decoration: underline;
-    color: #283F3B;
-    font-size: 25px;
-    font-weight: bold;
+.encabezado-titulo {
+  margin-left: 25px;
+  text-decoration: underline;
+  color: #283F3B;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /*modificamos ul que contiene li y a de encabezado lofts*/
-.encabezado-listas{
-    list-style: square;
-    color: gray;
+.encabezado-listas {
+  list-style: square;
+  color: gray;
 }
 
 /*modificamos li de encabezado lofts*/
-.encabezado-lista{
-    margin: 20px 10px;
+.encabezado-lista {
+  margin: 20px 10px;
 }
 
 /*modificamos a del encabezado de lofts*/
-.encabezado-lista-text{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: gray;
-    list-style: square;
-    text-decoration: none;
+.encabezado-lista-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: gray;
+  list-style: square;
+  text-decoration: none;
 }
 
 /*cuando nos posicionamos sobre los links (a) del encabezado*/
-.encabezado-lista-text:hover{
-    transition: 0.5s;
-    color: black ;
+.encabezado-lista-text:hover {
+  transition: 0.5s;
+  color: black;
 }
 
 /*section del loft 3*/
-.principal-loft3{
-    background-color: #659B5E;
-    width: 100%;
-    padding: 30px;
+.principal-loft3 {
+  background-color: #659B5E;
+  width: 100%;
+  padding: 30px;
 }
 
 /*modificamos div con h2 y p del loft 3*/
-.texto-loft3{
-    width: 400px;
+.texto-loft3 {
+  width: 400px;
 }
 
 /*modificamos titulo h2 del loft3*/
-#loft-indice3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    width: 400px;
-    color: #d7c0c4;
-    font-weight: 500;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: left;
+#loft-indice3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 400px;
+  color: #d7c0c4;
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align: left;
 }
 
 /*cambiamos la section de loft4*/
-.principal-loft4{
-    background-color: #556F44;
-    width: 100%;
-    padding: 30px;
-}    
+.principal-loft4 {
+  background-color: #556F44;
+  width: 100%;
+  padding: 30px;
+}
 
 /*DIV con h2 y p del loft4*/
-.texto-loft4{
-    width: 400px;
+.texto-loft4 {
+  width: 400px;
 }
 
 /*modificamos el titulo h3 del loft4*/
-#loft-indice4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    width: 400px;
-    color: #d7c0c4;
-    font-weight: 500;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: left;
+#loft-indice4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 400px;
+  color: #d7c0c4;
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align: left;
 }
 
 /*modificamos los parrafos de ambos lofts 3 y 4*/
-.parrafo-loft{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 25px;
+.parrafo-loft {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 25px;
 }
+
 /* iframe de los videos de loft 3 y loft4*/
-.video-loft{
-    width: 500px; 
-    height: 400px;
-    margin-top: 20px;
-    border: 1px solid white;
+.video-loft {
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid white;
 }
+
 /*modificamos la section de incluyen*/
-.principal-incluye{
-    background-color: #283F3B;
-    width: 100%;
+.principal-incluye {
+  background-color: #283F3B;
+  width: 100%;
 }
 
 /* div que incluye h2, ul, li de servicios del archivo lofts*/
-.servicios{
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 40px;
+.servicios {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 /*modificamos los parrafos de la seccion incluye en los lofts*/
-.incluye-listas{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.incluye-listas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
+
 /*modificamos el li del ul del main de lofts*/
-.incluye-lista{
-    padding: 10px;
+.incluye-lista {
+  padding: 10px;
 }
 
 /*modificamos h4 de la seccion servicion de loft*/
-#incluye-indice{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    width: 400px;
-    color: #d7c0c4;
-    font-weight: 500;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: left;    
+#incluye-indice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 400px;
+  color: #d7c0c4;
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align: left;
 }
 
 /*modificamos encabezado de experiencias*/
-.encabezado-exp{
-    background-color: #95BF74;
+.encabezado-exp {
+  background-color: #95BF74;
 }
 
 /* modificamos el main de experiencias*/
-.principal-experiencias{
-    background-color: #659B5E;
-    width: 100%;
-    padding: 20px;
+.principal-experiencias {
+  background-color: #659B5E;
+  width: 100%;
+  padding: 20px;
 }
+
 /*seccion del main de experinecias con h1 y p*/
-.section-experiencias{
-    width: 90%;
-    margin: auto;
-    padding: 15px;
-    border: 2px solid white
+.section-experiencias {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+  border: 2px solid white;
 }
 
 /*modificamos el h1 del archivo experiencias*/
-.titulo-experiencias{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color:  white;
-    font-weight: 500;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: left;        
+.titulo-experiencias {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align: left;
 }
 
 /*modificamos los parrafos dentro del main del archivo experiencias*/
-.parrafo-exp{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-    padding: 10px; 
+.parrafo-exp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  padding: 10px;
 }
+
 /*aside de experiencias*/
-.secundario-exp{
-    width: 100%;
+.secundario-exp {
+  width: 100%;
 }
 
 /*modifcamos primera imagen del aside de experiencias*/
-.img-exp1{
-    width: 410px;
-    height: 400px;
-    object-fit: cover;
-    border: 1px solid gray;
-    margin: 10px;
+.img-exp1 {
+  width: 410px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid gray;
+  margin: 10px;
 }
+
 /*modifcamos segunda imagen del aside de experiencias*/
-.img-exp2{
-    width: 410px;
-    height: 400px;
-    object-fit: cover;
-    border: 1px solid gray;
-    margin: 10px;
+.img-exp2 {
+  width: 410px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid gray;
+  margin: 10px;
 }
+
 /*modifcamos tercera imagen del aside de experiencias*/
-.img-exp3{
-    width: 410px;
-    height: 400px;
-    object-fit: cover;
-    border: 1px solid gray;
-    margin: 10px;
+.img-exp3 {
+  width: 410px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid gray;
+  margin: 10px;
 }
 
 /*modificamos encabezado de ubicacion*/
-.encabezado-ubic{
-    background-color: #95BF74;
+.encabezado-ubic {
+  background-color: #95BF74;
 }
 
 /*modificamos  main de ubicacion*/
-.principal-ubic{
-    background-color: #556F44;
+.principal-ubic {
+  background-color: #556F44;
 }
 
 /*h1 y p del main de ubicacion*/
-.texto-ubic{
-    padding: 10px;
-    text-align: left;
-    margin-left: 20px;
+.texto-ubic {
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 /*modificamos el h1 de ubicacion*/
-.titulo-ubic{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-decoration: underline;
-    color: #283F3B;
-    font-weight: bolder;
-    text-align: left;
-    padding: 10px; 
-}    
+.titulo-ubic {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #283F3B;
+  font-weight: bolder;
+  text-align: left;
+  padding: 10px;
+}
 
 /*modificamos los parrafos del main de ubicacion*/
-.parrafo-ubic{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    margin-right: 100px;
+.parrafo-ubic {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 100px;
 }
 
 /*caja con las localidades cercanas en ubicacion*/
-.localidades{
-    background-color: #283F3B;
-    width: 400PX;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 1px solid white;
+.localidades {
+  background-color: #283F3B;
+  width: 400PX;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
 }
+
 /* iframe del maps en ubicacion*/
-.mapa-ubic{
-    width:100%;
-    height:450px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+.mapa-ubic {
+  width: 100%;
+  height: 450px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
+
 /*h1 dentro del encabezado de consultas*/
-.titulo-consultas{
-    background-color: #5c8578;
-    width: 100%;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 80px;
-    margin-bottom: 0;
-    padding: 15px;
+.titulo-consultas {
+  background-color: #5c8578;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding: 15px;
 }
 
 /*modificamos el color del main de consultas*/
-.principal-consultas{
-    background-color: #5c8578;
-    width: 100%;
-    gap: 200px;
-    padding-bottom: 30px;
-}
-
-/*modifcamos parrafos dentro del formulario*/
-.formulario-usuario{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 40%;
-}
-/* div del formulario de consultas*/
-.formulario-usuario-grupo{
-    padding-top: 10px;
-    width: 90%;
-}
-.formulario-usuario-grupo-input{
-    border: 1px solid white;
-}
-/*modificamos los imput del formulario al hacerle click*/
-.formulario-usuario-grupo-input:focus{
-    outline: none;
-}
-
-/*modificamos el boton para enviar el formulario*/
-.boton-enviar{
-    border-radius: 5px;
-    padding: 2px 5px 2px 2px;
-    background-color: white;
-    color: black;
+.principal-consultas {
+  background-color: #5c8578;
+  width: 100%;
+  gap: 200px;
+  padding-bottom: 30px;
 }
 
 /*imagen en el main de consultas*/
-.img-consulta{
-    width: 300px;
-    height: 430px;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid white;
+.img-consulta {
+  width: 300px;
+  height: 430px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+}
+
+/*modifcamos parrafos dentro del formulario*/
+.formulario-usuario {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 40%;
+}
+
+/* div del formulario de consultas*/
+.formulario-usuario-grupo {
+  padding-top: 10px;
+  width: 90%;
+}
+
+.formulario-usuario-grupo-input {
+  border: 1px solid white;
+}
+
+/*modificamos los imput del formulario al hacerle click*/
+.formulario-usuario-grupo-input:focus {
+  outline: none;
+}
+
+/*modificamos el boton para enviar el formulario*/
+.boton-enviar {
+  border-radius: 5px;
+  padding: 2px 5px 2px 2px;
+  background-color: white;
+  color: black;
 }
 
 /*aplicamos medias query para pantallas desde 1024px a 992px*/
-@media(max-width:1024px){
-    /* seccion con imagen y div*/
-    .seccion-ofrecemos{
-        height: 1000px;
-        margin-bottom: 0px;
-    }
-
-    /*img dentro de la seccion*/
-    .seccion-ofrecemos-img{
-        height: 50%;
-        width: 100%;
-        margin-left: 0px;
-    }
-
-    /*div con el h1 y parrafors*/
-    .seccion-ofrecemos-texto{
-        width: 100%;
-        height: 400px;
-        left: 0px;
-        top: 750px;
-    }
-    }
-
-    /*aplicamos medias query para pantallas desde 992px a 768px*/
-    @media(max-width:992px){
-    /*img adentro de la seccion opiniones*/
-    .seccion-opinion-img{
-        left: 400px;
-    }
-    /*modificamos las img de los encabezados*/
-    .encabezado-img{
-        height: 400px;
-    }
-    /*modificamos el formulario del archivo contacto*/
-    .formulario-usuario{
-        font-size: 16px;
-        width: 60%;
-    }
-    /*desactivamos la img para este tamaño de pantallas*/
-    .img-consulta{
-        display: none;
-    }
-    /*modificamos div con h2 y p del loft 3*/
-    .texto-loft3{
-        width: 600px;
-    }
-    .texto-loft4{
-        width: 600px;
-    }
-    /* iframe de los videos de loft 3 y loft4*/
-    .video-loft{
-        width: 600px; 
-        height: 360px;
-        margin-top: 20px;
-        margin-left: 50px;
-    }
+@media (max-width: 1024px) {
+  /* seccion con imagen y div*/
+  .seccion-ofrecemos {
+    height: 1000px;
+    margin-bottom: 0px;
+  }
+  /*img dentro de la seccion*/
+  .seccion-ofrecemos-img {
+    height: 50%;
+    width: 100%;
+    margin-left: 0px;
+  }
+  /*div con el h1 y parrafors*/
+  .seccion-ofrecemos-texto {
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 750px;
+  }
 }
-
+/*aplicamos medias query para pantallas desde 992px a 768px*/
+@media (max-width: 992px) {
+  /*img adentro de la seccion opiniones*/
+  .seccion-opinion-img {
+    left: 400px;
+  }
+  /*modificamos las img de los encabezados*/
+  .encabezado-img {
+    height: 400px;
+  }
+  /*modificamos el formulario del archivo contacto*/
+  .formulario-usuario {
+    font-size: 16px;
+    width: 60%;
+  }
+  /*desactivamos la img para este tamaño de pantallas*/
+  .img-consulta {
+    display: none;
+  }
+  /*modificamos div con h2 y p del loft 3*/
+  .texto-loft3 {
+    width: 600px;
+  }
+  .texto-loft4 {
+    width: 600px;
+  }
+  /* iframe de los videos de loft 3 y loft4*/
+  .video-loft {
+    width: 600px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+}
 /*aplicamos medias query para pantallas desde 768px a 576px*/
-@media(max-width:768px){
-    .body{
-        width: 100%;
-    }
-    /*modificamos el h1 del encabezado*/
-    .encabezado-index-titulo{
-        font-size: 25px;
-}
-    /*parrafo del encabezado del index*/
-    .encabezado-index-par{
-        font-size: 20px;
-    } 
-    /*img dentro de la seccion*/
-    .seccion-ofrecemos-img{
-        height: 40%;
-    }
-    /*img adentro de la seccion opiniones*/
-    .seccion-opinion-img{
-        left: 300px;
-    }
-    /* iframe de los videos de loft 3 y loft4*/
-    .video-loft{
-        width: 90%; 
-        height: 360px;
-
-        margin-left: 0px;
-        border: 1px solid white;
-    }
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+  /*modificamos el h1 del encabezado*/
+  .encabezado-index-titulo {
+    font-size: 25px;
+  }
+  /*parrafo del encabezado del index*/
+  .encabezado-index-par {
+    font-size: 20px;
+  }
+  /*img dentro de la seccion*/
+  .seccion-ofrecemos-img {
+    height: 40%;
+  }
+  /*img adentro de la seccion opiniones*/
+  .seccion-opinion-img {
+    left: 300px;
+  }
+  /* iframe de los videos de loft 3 y loft4*/
+  .video-loft {
+    width: 90%;
+    height: 360px;
+    margin-left: 0px;
+    border: 1px solid white;
+  }
 }
 /*aplicamos medias query para pantallas menores a 576px*/
-@media(max-width:576px){
-      /*modificamos las img de los encabezados*/
-      .encabezado-img{
-        height: 400px;
-    }
-
-    /*modificamos el h1 del encabezado*/
-    .encabezado-index-titulo{
-        font-size: 25px;
-    }
-    /*parrafo del encabezado del index*/
-    .encabezado-index-par{
-        font-size: 16px;
-    }
-    .seccion-ofrecemos{
-        height: 100%;
-    }
-    /*modificamos la seccion ofrecemos del index*/
-    .seccion-ofrecemos-texto{
-        width: 100%;
-        padding: 10px 0px 0px 0px;
-        top: 450px;
-        height: 100%;
-    }
-    /*seccion sobre opiniones*/
-    .seccion-opiniones{
-        height: 900px;
-        background-color:#283F3B;
-        padding: 15px;
-        margin-top: 600px;
-        gap: 10px;
-    }
-    /*divs con los h1,p e img adentro*/
-    .seccion-opinion{
-        margin: 0px;
-        width: 100%;
-    }
-    /*img adentro de la seccion opiniones*/
-    .seccion-opinion-img{
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        top: 900px;
-        left: 0px;
-    }
-    /*parrafos adentro de la seccion opiniones*/
-    .seccion-opinion-parrafo{
-        font-size: 20px;
-    }
-    /*editamos el footer*/
-    .pie-pagina-index{
-        margin-top: 200px;
-        padding: 15px;
-    }
-        /* imagen adentro de todos los encabezados */
-    .encabezado-img{
-        height: 400px;
-    }
-    /*DIV con el h1 y ul del encabezado lofts*/
-    .encabezado-lofts-texto{
-        width: 80%;
-    }
-
-    /*modificamos h1 del encabezado de lofts*/
-    .encabezado-titulo{
+@media (max-width: 576px) {
+  /*modificamos las img de los encabezados*/
+  .encabezado-img {
+    height: 400px;
+  }
+  /*modificamos el h1 del encabezado*/
+  .encabezado-index-titulo {
+    font-size: 25px;
+  }
+  /*parrafo del encabezado del index*/
+  .encabezado-index-par {
+    font-size: 16px;
+  }
+  .seccion-ofrecemos {
+    height: 100%;
+  }
+  /*modificamos la seccion ofrecemos del index*/
+  .seccion-ofrecemos-texto {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+    top: 450px;
+    height: 100%;
+  }
+  /*seccion sobre opiniones*/
+  .seccion-opiniones {
+    height: 900px;
+    background-color: #283F3B;
+    padding: 15px;
+    margin-top: 600px;
+    gap: 10px;
+  }
+  /*divs con los h1,p e img adentro*/
+  .seccion-opinion {
+    margin: 0px;
+    width: 100%;
+  }
+  /*img adentro de la seccion opiniones*/
+  .seccion-opinion-img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 900px;
+    left: 0px;
+  }
+  /*parrafos adentro de la seccion opiniones*/
+  .seccion-opinion-parrafo {
     font-size: 20px;
-    }
-    /*modificamos div con h2 y p del loft 3*/
-    .texto-loft3{
-        width: 80%;
-    }
-    .texto-loft4{
-        width: 80%;
-    }
-    /* iframe de los videos de loft 3 y loft4*/
-    .video-loft{
-        width: 90%; 
-        height: 360px;
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    /*modificamos titulo del loft3*/
-    #loft-indice3{
-        width: 100%;   
-     }
-     /*modificamos titulo del loft4*/
-     #loft-indice4{
-        width: 100%;   
-     }
-     #incluye-indice{
-        width: 100%;
-     }
-     .localidades{
-        width: 90%;
-    }
-    .parrafo-ubic{
-        width: 90%;
-    }
-    /*modificamos el formulario del archivo contacto*/
-    .formulario-usuario{
-        font-size: 16px;
-        width: 90%;
-    }
-}
-
-
+  }
+  /*editamos el footer*/
+  .pie-pagina-index {
+    margin-top: 200px;
+    padding: 15px;
+  }
+  /* imagen adentro de todos los encabezados */
+  .encabezado-img {
+    height: 400px;
+  }
+  /*DIV con el h1 y ul del encabezado lofts*/
+  .encabezado-lofts-texto {
+    width: 80%;
+  }
+  /*modificamos h1 del encabezado de lofts*/
+  .encabezado-titulo {
+    font-size: 20px;
+  }
+  /*modificamos div con h2 y p del loft 3*/
+  .texto-loft3 {
+    width: 80%;
+  }
+  .texto-loft4 {
+    width: 80%;
+  }
+  /* iframe de los videos de loft 3 y loft4*/
+  .video-loft {
+    width: 90%;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  /*modificamos titulo del loft3*/
+  #loft-indice3 {
+    width: 100%;
+  }
+  /*modificamos titulo del loft4*/
+  #loft-indice4 {
+    width: 100%;
+  }
+  #incluye-indice {
+    width: 100%;
+  }
+  .localidades {
+    width: 90%;
+  }
+  .parrafo-ubic {
+    width: 90%;
+  }
+  /*modificamos el formulario del archivo contacto*/
+  .formulario-usuario {
+    font-size: 16px;
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
