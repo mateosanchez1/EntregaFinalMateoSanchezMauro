@@ -31,14 +31,13 @@
 }
 
 /*links adentro del nav bar*/
-.nav-link a {
+.nav-link {
   font-size: 15px;
   color: white;
   font-weight: bold;
   margin-right: 25px;
+  /*cuando posicionamos el mouse adentro del link*/
 }
-
-/*cuando posicionamos el mouse adentro del link*/
 .nav-link:hover {
   background-color: white;
   transition: 0.5s;
@@ -57,25 +56,69 @@
   color: #95BF74;
   font-weight: bolder;
 }
+@media (max-width: 768px) {
+  .encabezado-index-titulo {
+    font-size: 25px;
+  }
+}
 
 /*parrafo del encabezado del index*/
 .encabezado-index-par {
   font-size: 15px;
   color: gray;
 }
+@media (max-width: 768px) {
+  .encabezado-index-par {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .encabezado-index-par {
+    font-size: 16px;
+  }
+}
 
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+}
 /* seccion con imagen y div*/
 .seccion-ofrecemos {
   width: 100%;
   height: 700px;
   display: flex;
+  /*aplicamos medias query para pantallas desde 1024px a 992px*/
+}
+@media (max-width: 1024px) {
+  .seccion-ofrecemos {
+    height: 1000px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .seccion-ofrecemos {
+    height: 100%;
+  }
 }
 
 /*img dentro de la seccion*/
 .seccion-ofrecemos-img {
   height: 80%;
-  width: 60%;
+  width: 70%;
   margin-left: 100px;
+}
+@media (max-width: 1024px) {
+  .seccion-ofrecemos-img {
+    height: 50%;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .seccion-ofrecemos-img {
+    height: 40%;
+  }
 }
 
 /*div con el h1 y parrafors*/
@@ -87,6 +130,22 @@
   position: absolute;
   left: 600px;
   top: 250px;
+  /*aplicamos medias query para pantallas desde 1024px a 992px*/
+}
+@media (max-width: 1024px) {
+  .seccion-ofrecemos-texto {
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 750px;
+  }
+}
+@media (max-width: 576px) {
+  .seccion-ofrecemos-texto {
+    padding: 10px 0px 0px 0px;
+    top: 450px;
+    height: 100%;
+  }
 }
 
 /*h1 dentro del div de la seccion*/
@@ -106,17 +165,30 @@
 /*seccion sobre opiniones*/
 .seccion-opiniones {
   width: 100%;
-  height: 500px;
+  height: 650px;
   background: #283F3B;
   padding: 15px;
   gap: 50px;
   position: relative;
+}
+@media (max-width: 576px) {
+  .seccion-opiniones {
+    height: 900px;
+    margin-top: 600px;
+    gap: 10px;
+  }
 }
 
 /*divs con los h1,p e img adentro*/
 .seccion-opinion {
   margin: 10px;
   width: 35%;
+}
+@media (max-width: 576px) {
+  .seccion-opinion {
+    margin: 0px;
+    width: 100%;
+  }
 }
 
 /*img adentros de los div de opinion*/
@@ -132,21 +204,52 @@
   color: white;
 }
 
+/*img con los rostros de los clientes*/
+.seccion-img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+}
+
 /*img adentro de la seccion opiniones*/
 .seccion-opinion-img {
-  width: 40%;
-  height: 400px;
+  width: 35%;
+  height: 420px;
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
-  top: 250px;
-  left: 600px;
+  top: 280px;
+  left: 570px;
+}
+@media (max-width: 992px) {
+  .seccion-opinion-img {
+    left: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .seccion-opinion-img {
+    left: 300px;
+    top: 380px;
+  }
+}
+@media (max-width: 576px) {
+  .seccion-opinion-img {
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 900px;
+  }
 }
 
 /*parrafos adentro de la seccion opiniones*/
 .seccion-opinion-parrafo {
   color: white;
   font-size: 15px;
+}
+@media (max-width: 576px) {
+  .seccion-opinion-parrafo {
+    font-size: 20px;
+  }
 }
 
 /*editamos el footer*/
@@ -155,6 +258,11 @@
   width: 100%;
   margin-top: 150px;
   padding: 15px;
+}
+@media (max-width: 576px) {
+  .pie-pagina-index {
+    margin-top: 200px;
+  }
 }
 
 /*editamos pie de pagina de los demas*/
@@ -189,6 +297,16 @@
   width: 100%;
   height: 500px;
 }
+@media (max-width: 992px) {
+  .encabezado-img {
+    height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .encabezado-img {
+    height: 300px;
+  }
+}
 
 /*modificamos encabezado lofts*/
 .encabezado-lofts {
@@ -204,6 +322,11 @@
   margin: 20px;
   border: 1px solid gray;
 }
+@media (max-width: 576px) {
+  .encabezado-lofts-texto {
+    width: 80%;
+  }
+}
 
 /*modificamos h1 del encabezado de lofts*/
 .encabezado-titulo {
@@ -212,6 +335,11 @@
   color: #283F3B;
   font-size: 25px;
   font-weight: bold;
+}
+@media (max-width: 576px) {
+  .encabezado-titulo {
+    font-size: 20px;
+  }
 }
 
 /*modificamos ul que contiene li y a de encabezado lofts*/
@@ -228,13 +356,12 @@
 /*modificamos a del encabezado de lofts*/
 .encabezado-lista-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: gray;
   list-style: square;
   text-decoration: none;
+  /*cuando nos posicionamos sobre los links (a) del encabezado*/
 }
-
-/*cuando nos posicionamos sobre los links (a) del encabezado*/
 .encabezado-lista-text:hover {
   transition: 0.5s;
   color: black;
@@ -251,6 +378,16 @@
 .texto-loft3 {
   width: 400px;
 }
+@media (max-width: 992px) {
+  .texto-loft3 {
+    width: 600px;
+  }
+}
+@media (max-width: 576px) {
+  .texto-loft3 {
+    width: 80%;
+  }
+}
 
 /*modificamos titulo h2 del loft3*/
 #loft-indice3 {
@@ -262,6 +399,11 @@
   font-variant: small-caps;
   text-decoration: underline;
   text-align: left;
+}
+@media (max-width: 576px) {
+  #loft-indice3 {
+    width: 100%;
+  }
 }
 
 /*cambiamos la section de loft4*/
@@ -275,6 +417,16 @@
 .texto-loft4 {
   width: 400px;
 }
+@media (max-width: 992px) {
+  .texto-loft4 {
+    width: 600px;
+  }
+}
+@media (max-width: 576px) {
+  .texto-loft4 {
+    width: 80%;
+  }
+}
 
 /*modificamos el titulo h3 del loft4*/
 #loft-indice4 {
@@ -287,11 +439,16 @@
   text-decoration: underline;
   text-align: left;
 }
+@media (max-width: 576px) {
+  #loft-indice4 {
+    width: 100%;
+  }
+}
 
 /*modificamos los parrafos de ambos lofts 3 y 4*/
 .parrafo-loft {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   text-align: left;
@@ -304,6 +461,24 @@
   height: 400px;
   margin-top: 20px;
   border: 1px solid white;
+}
+@media (max-width: 992px) {
+  .video-loft {
+    width: 600px;
+    height: 360px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .video-loft {
+    width: 90%;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .video-loft {
+    margin-left: 15px;
+  }
 }
 
 /*modificamos la section de incluyen*/
@@ -322,7 +497,7 @@
 /*modificamos los parrafos de la seccion incluye en los lofts*/
 .incluye-listas {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   text-align: left;
@@ -346,6 +521,11 @@
   text-decoration: underline;
   text-align: left;
 }
+@media (max-width: 576px) {
+  #incluye-indice {
+    width: 100%;
+  }
+}
 
 /*modificamos encabezado de experiencias*/
 .encabezado-exp {
@@ -354,7 +534,7 @@
 
 /* modificamos el main de experiencias*/
 .principal-experiencias {
-  background-color: #659B5E;
+  background-color: #659b5e;
   width: 100%;
   padding: 20px;
 }
@@ -381,7 +561,7 @@
 /*modificamos los parrafos dentro del main del archivo experiencias*/
 .parrafo-exp {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   text-align: left;
@@ -454,11 +634,16 @@
 /*modificamos los parrafos del main de ubicacion*/
 .parrafo-ubic {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   padding: 10px;
   margin-right: 100px;
+}
+@media (max-width: 576px) {
+  .parrafo-ubic {
+    width: 90%;
+  }
 }
 
 /*caja con las localidades cercanas en ubicacion*/
@@ -468,6 +653,11 @@
   margin-top: 10px;
   margin-bottom: 20px;
   border: 1px solid white;
+}
+@media (max-width: 576px) {
+  .localidades {
+    width: 90%;
+  }
 }
 
 /* iframe del maps en ubicacion*/
@@ -507,18 +697,35 @@
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid white;
+  /*desactivamos la img para este tamaño de pantallas*/
+}
+@media (max-width: 992px) {
+  .img-consulta {
+    display: none;
+  }
 }
 
 /*modifcamos parrafos dentro del formulario*/
 .formulario-usuario {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   text-align: left;
   margin-left: 15px;
   margin-right: 15px;
   width: 40%;
+}
+@media (max-width: 992px) {
+  .formulario-usuario {
+    font-size: 16px;
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  .formulario-usuario {
+    width: 90%;
+  }
 }
 
 /* div del formulario de consultas*/
@@ -529,9 +736,8 @@
 
 .formulario-usuario-grupo-input {
   border: 1px solid white;
+  /*modificamos los imput del formulario al hacerle click*/
 }
-
-/*modificamos los imput del formulario al hacerle click*/
 .formulario-usuario-grupo-input:focus {
   outline: none;
 }
@@ -542,193 +748,4 @@
   padding: 2px 5px 2px 2px;
   background-color: white;
   color: black;
-}
-
-/*aplicamos medias query para pantallas desde 1024px a 992px*/
-@media (max-width: 1024px) {
-  /* seccion con imagen y div*/
-  .seccion-ofrecemos {
-    height: 1000px;
-    margin-bottom: 0px;
-  }
-  /*img dentro de la seccion*/
-  .seccion-ofrecemos-img {
-    height: 50%;
-    width: 100%;
-    margin-left: 0px;
-  }
-  /*div con el h1 y parrafors*/
-  .seccion-ofrecemos-texto {
-    width: 100%;
-    height: 400px;
-    left: 0px;
-    top: 750px;
-  }
-}
-/*aplicamos medias query para pantallas desde 992px a 768px*/
-@media (max-width: 992px) {
-  /*img adentro de la seccion opiniones*/
-  .seccion-opinion-img {
-    left: 400px;
-  }
-  /*modificamos las img de los encabezados*/
-  .encabezado-img {
-    height: 400px;
-  }
-  /*modificamos el formulario del archivo contacto*/
-  .formulario-usuario {
-    font-size: 16px;
-    width: 60%;
-  }
-  /*desactivamos la img para este tamaño de pantallas*/
-  .img-consulta {
-    display: none;
-  }
-  /*modificamos div con h2 y p del loft 3*/
-  .texto-loft3 {
-    width: 600px;
-  }
-  .texto-loft4 {
-    width: 600px;
-  }
-  /* iframe de los videos de loft 3 y loft4*/
-  .video-loft {
-    width: 600px;
-    height: 360px;
-    margin-top: 20px;
-    margin-left: 50px;
-  }
-}
-/*aplicamos medias query para pantallas desde 768px a 576px*/
-@media (max-width: 768px) {
-  .body {
-    width: 100%;
-  }
-  /*modificamos el h1 del encabezado*/
-  .encabezado-index-titulo {
-    font-size: 25px;
-  }
-  /*parrafo del encabezado del index*/
-  .encabezado-index-par {
-    font-size: 20px;
-  }
-  /*img dentro de la seccion*/
-  .seccion-ofrecemos-img {
-    height: 40%;
-  }
-  /*img adentro de la seccion opiniones*/
-  .seccion-opinion-img {
-    left: 300px;
-  }
-  /* iframe de los videos de loft 3 y loft4*/
-  .video-loft {
-    width: 90%;
-    height: 360px;
-    margin-left: 0px;
-    border: 1px solid white;
-  }
-}
-/*aplicamos medias query para pantallas menores a 576px*/
-@media (max-width: 576px) {
-  /*modificamos las img de los encabezados*/
-  .encabezado-img {
-    height: 400px;
-  }
-  /*modificamos el h1 del encabezado*/
-  .encabezado-index-titulo {
-    font-size: 25px;
-  }
-  /*parrafo del encabezado del index*/
-  .encabezado-index-par {
-    font-size: 16px;
-  }
-  .seccion-ofrecemos {
-    height: 100%;
-  }
-  /*modificamos la seccion ofrecemos del index*/
-  .seccion-ofrecemos-texto {
-    width: 100%;
-    padding: 10px 0px 0px 0px;
-    top: 450px;
-    height: 100%;
-  }
-  /*seccion sobre opiniones*/
-  .seccion-opiniones {
-    height: 900px;
-    background-color: #283F3B;
-    padding: 15px;
-    margin-top: 600px;
-    gap: 10px;
-  }
-  /*divs con los h1,p e img adentro*/
-  .seccion-opinion {
-    margin: 0px;
-    width: 100%;
-  }
-  /*img adentro de la seccion opiniones*/
-  .seccion-opinion-img {
-    width: 100%;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    top: 900px;
-    left: 0px;
-  }
-  /*parrafos adentro de la seccion opiniones*/
-  .seccion-opinion-parrafo {
-    font-size: 20px;
-  }
-  /*editamos el footer*/
-  .pie-pagina-index {
-    margin-top: 200px;
-    padding: 15px;
-  }
-  /* imagen adentro de todos los encabezados */
-  .encabezado-img {
-    height: 400px;
-  }
-  /*DIV con el h1 y ul del encabezado lofts*/
-  .encabezado-lofts-texto {
-    width: 80%;
-  }
-  /*modificamos h1 del encabezado de lofts*/
-  .encabezado-titulo {
-    font-size: 20px;
-  }
-  /*modificamos div con h2 y p del loft 3*/
-  .texto-loft3 {
-    width: 80%;
-  }
-  .texto-loft4 {
-    width: 80%;
-  }
-  /* iframe de los videos de loft 3 y loft4*/
-  .video-loft {
-    width: 90%;
-    height: 360px;
-    margin-top: 20px;
-    margin-left: 15px;
-  }
-  /*modificamos titulo del loft3*/
-  #loft-indice3 {
-    width: 100%;
-  }
-  /*modificamos titulo del loft4*/
-  #loft-indice4 {
-    width: 100%;
-  }
-  #incluye-indice {
-    width: 100%;
-  }
-  .localidades {
-    width: 90%;
-  }
-  .parrafo-ubic {
-    width: 90%;
-  }
-  /*modificamos el formulario del archivo contacto*/
-  .formulario-usuario {
-    font-size: 16px;
-    width: 90%;
-  }
 }/*# sourceMappingURL=style.css.map */

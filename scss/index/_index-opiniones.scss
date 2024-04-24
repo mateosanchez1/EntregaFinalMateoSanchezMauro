@@ -1,7 +1,7 @@
 /*seccion sobre opiniones*/
 .seccion-opiniones{
     width: 100%;
-    height: 500px;
+    height: 650px;
     background: #283F3B;
     padding: 15px;
     gap: 50px;
@@ -25,13 +25,6 @@
 .seccion-opiniones-img{
     width: 150px;
     height: 30px;
-    @media(max-width:576px){
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        top: 900px;
-        left: 0px;
-    }
 }
 /*titulos dentro de los divs de opiniones*/
 .seccion-opinion-titulo{
@@ -39,21 +32,36 @@
     font-weight: bold;
     color: white;
 }
+
+/*img con los rostros de los clientes*/
+.seccion-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 ;
+}
 /*img adentro de la seccion opiniones*/
 .seccion-opinion-img{
-    width: 40%;
-    height: 400px;
+    width: 35%;
+    height: 420px;
     object-fit: cover;
     position: absolute;
-    top: 250px;
-    left: 600px;
+    top: 280px;
+    left: 570px;
     @media(max-width:992px){
             left: 400px;
     }
     @media(max-width:768px){
         left: 300px;
+        top: 380px;
+    }
+    @media(max-width:576px){
+        width: 100%;
+        height: 200px;
+        left: 0px;
+        top: 900px;
     }
 }
+
 /*parrafos adentro de la seccion opiniones*/
 .seccion-opinion-parrafo{
     color: white;

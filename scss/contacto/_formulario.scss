@@ -1,8 +1,8 @@
 /*modifcamos parrafos dentro del formulario*/
 .formulario-usuario{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
+    font-size: 17px;
+    color: $color-parrafos;
     font-weight: 500;
     text-align: left;
     margin-left: 15px;
@@ -23,7 +23,7 @@
     width: 90%;
 }
 .formulario-usuario-grupo-input{
-    border: 1px solid white;
+    border: 1px solid $color-parrafos;
     /*modificamos los imput del formulario al hacerle click*/
     &:focus{
         outline: none;
@@ -34,6 +34,6 @@
 .boton-enviar{
     border-radius: 5px;
     padding: 2px 5px 2px 2px;
-    background-color: white;
+    background-color: $color-parrafos;
     color: black;
 }

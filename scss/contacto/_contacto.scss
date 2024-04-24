@@ -26,7 +26,7 @@
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid white;
+    border: 1px solid $color-parrafos;
     /*desactivamos la img para este tamaño de pantallas*/
     @media(max-width:992px){
         display: none;
