@@ -42,6 +42,7 @@
 .nav-link {
   font-size: 15px;
   color: white;
+  border-radius: 5px;
   font-weight: bold;
   margin-right: 25px;
   /*cuando posicionamos el mouse adentro del link*/
@@ -49,7 +50,6 @@
 .nav-link:hover {
   background-color: rgb(141, 138, 138);
   transition: 1s;
-  border-radius: 5px;
 }
 
 /*header con un h1 y un parrafo*/
@@ -179,12 +179,19 @@
   padding: 15px;
   gap: 50px;
   position: relative;
+  margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .seccion-opiniones {
+    margin-bottom: 150px;
+  }
 }
 @media (max-width: 576px) {
   .seccion-opiniones {
     height: 900px;
     margin-top: 600px;
     gap: 10px;
+    margin-bottom: 200px;
   }
 }
 

@@ -25,13 +25,13 @@
 .nav-link {
     font-size: 15px;
     color: $color-parrafos;
+    border-radius: 5px;
     font-weight: bold;
     margin-right: 25px;
     /*cuando posicionamos el mouse adentro del link*/
     &:hover{
         background-color: rgb(141, 138, 138);
         transition: 1s;
-        border-radius: 5px;
     }
 }
 

@@ -6,10 +6,15 @@
     padding: 15px;
     gap: 50px;
     position: relative;
+    margin-bottom: 100px;
+    @media(max-width:768px){
+        margin-bottom: 150px;
+    }
     @media(max-width:576px){
         height: 900px;
         margin-top: 600px;
         gap: 10px;
+        margin-bottom: 200px;
     }
 }
 /*divs con los h1,p e img adentro*/
