@@ -5,7 +5,7 @@
 
 /*modificamos  main de ubicacion*/
 .principal-ubic{
-    background-color: #556F44;
+    background-color: $color-secundario;
 }
 
 /*h1 y p del main de ubicacion*/
@@ -17,20 +17,17 @@
 
 /*modificamos el h1 de ubicacion*/
 .titulo-ubic{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-decoration: underline;
-    color: #283F3B;
+    @extend %titulos;
+    color: $color-terciario;
     font-weight: bolder;
-    text-align: left;
     padding: 10px; 
 }    
 
 /*modificamos los parrafos del main de ubicacion*/
 .parrafo-ubic{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color: white;
+    font-size: $parrafos-size;
+    color: $color-parrafos;
     font-weight: 500;
     padding: 10px;
     margin-right: 100px;
@@ -41,11 +38,11 @@
 
 /*caja con las localidades cercanas en ubicacion*/
 .localidades{
-    background-color: #283F3B;
+    background-color: $color-terciario;
     width: 400PX;
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid white;
+    border: 1px solid $color-parrafos;
     @media(max-width:576px){
         width: 90%;
     }
@@ -54,6 +51,6 @@
 .mapa-ubic{
     width:100%;
     height:450px;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border-top: 3px solid $color-parrafos;
+    border-bottom: 3px solid $color-parrafos;
 }

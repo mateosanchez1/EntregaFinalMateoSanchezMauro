@@ -35,7 +35,7 @@
 
 /*div con el h1 y parrafors*/
 .seccion-ofrecemos-texto{
-    background-color: #659b5e;
+    background-color: $color-principal;
     width: 500px;
     height: 500px;
     padding: 15px;
@@ -59,13 +59,13 @@
 /*h1 dentro del div de la seccion*/
 .seccion-ofrecemos-titulo{
     font-size: 20px;
-    color: white;
+    color: $color-parrafos;
     font-weight: bolder;
 }
 
 /*parrafo adentro del div*/
 .seccion-ofrecemos-parrafo{
     font-size: 18px;
-    color: white;
+    color: $color-parrafos;
     padding: 10px;
 }

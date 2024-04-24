@@ -2,7 +2,7 @@
 .seccion-opiniones{
     width: 100%;
     height: 650px;
-    background: #283F3B;
+    background: $color-terciario;
     padding: 15px;
     gap: 50px;
     position: relative;
@@ -30,7 +30,7 @@
 .seccion-opinion-titulo{
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: $color-parrafos;
 }
 
 /*img con los rostros de los clientes*/
@@ -64,7 +64,7 @@
 
 /*parrafos adentro de la seccion opiniones*/
 .seccion-opinion-parrafo{
-    color: white;
+    color: $color-parrafos;
     font-size: 15px;
     @media(max-width:576px){
         font-size: 20px;

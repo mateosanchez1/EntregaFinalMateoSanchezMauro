@@ -1,6 +1,6 @@
 /*section del loft 3*/
 .principal-loft3{
-    background-color: #659B5E;
+    background-color: $color-principal;
     width: 100%;
     padding: 30px;
 }
@@ -18,14 +18,10 @@
 
 /*modificamos titulo h2 del loft3*/
 #loft-indice3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    @extend %titulos;
     width: 400px;
     color: #d7c0c4;
     font-weight: 500;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: left;
     @media(max-width:576px){
         width: 100%;   
     }

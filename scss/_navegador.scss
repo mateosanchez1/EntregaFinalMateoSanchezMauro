@@ -1,6 +1,6 @@
 /*modificamos el navegador*/
 .container-fluid{
-    background-color: #99DDC8;
+    background-color: $color-navegador;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,19 +18,20 @@
 /*modificamos li de la navbar*/
 .nav-item{
     font-size: 15px;
-    color: white;
+    color: $color-parrafos;
     padding-right: 10px;
 }
 /*links adentro del nav bar*/
 .nav-link {
     font-size: 15px;
-    color: white;
+    color: $color-parrafos;
     font-weight: bold;
     margin-right: 25px;
     /*cuando posicionamos el mouse adentro del link*/
     &:hover{
-        background-color: white;
-        transition: 0.5s;
+        background-color: rgb(141, 138, 138);
+        transition: 1s;
+        border-radius: 5px;
     }
 }
 

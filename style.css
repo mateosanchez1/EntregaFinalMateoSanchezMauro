@@ -6,6 +6,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.titulo-ubic, .titulo-experiencias, #incluye-indice, #loft-indice4, #loft-indice3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align: left;
+}
+
 /*modificamos el navegador*/
 .container-fluid {
   background-color: #99DDC8;
@@ -39,8 +47,9 @@
   /*cuando posicionamos el mouse adentro del link*/
 }
 .nav-link:hover {
-  background-color: white;
-  transition: 0.5s;
+  background-color: rgb(141, 138, 138);
+  transition: 1s;
+  border-radius: 5px;
 }
 
 /*header con un h1 y un parrafo*/
@@ -274,22 +283,30 @@
 
 /*div con las redes del footer*/
 .redes-sociales {
-  color: gray;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
 /*modificamos el instagram del footer*/
 .redes-sociales-insta {
-  color: gray;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
 /*editamos el copyright del pie de pagina*/
 .pie-pagina-parrafo {
-  color: gray;
+  color: white;
   font-weight: bold;
+}
+
+/*editamos icono sobre*/
+.bi-envelope {
+  color: white;
+}
+.bi-envelope:visited {
+  color: white;
 }
 
 /* imagen adentro de todos los encabezados */
@@ -356,7 +373,7 @@
 /*modificamos a del encabezado de lofts*/
 .encabezado-lista-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   color: gray;
   list-style: square;
   text-decoration: none;
@@ -369,7 +386,7 @@
 
 /*section del loft 3*/
 .principal-loft3 {
-  background-color: #659B5E;
+  background-color: #659b5e;
   width: 100%;
   padding: 30px;
 }
@@ -391,14 +408,9 @@
 
 /*modificamos titulo h2 del loft3*/
 #loft-indice3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
   width: 400px;
   color: #d7c0c4;
   font-weight: 500;
-  font-variant: small-caps;
-  text-decoration: underline;
-  text-align: left;
 }
 @media (max-width: 576px) {
   #loft-indice3 {
@@ -430,14 +442,9 @@
 
 /*modificamos el titulo h3 del loft4*/
 #loft-indice4 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
   width: 400px;
   color: #d7c0c4;
   font-weight: 500;
-  font-variant: small-caps;
-  text-decoration: underline;
-  text-align: left;
 }
 @media (max-width: 576px) {
   #loft-indice4 {
@@ -512,14 +519,9 @@
 
 /*modificamos h4 de la seccion servicion de loft*/
 #incluye-indice {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
   width: 400px;
   color: #d7c0c4;
   font-weight: 500;
-  font-variant: small-caps;
-  text-decoration: underline;
-  text-align: left;
 }
 @media (max-width: 576px) {
   #incluye-indice {
@@ -549,13 +551,8 @@
 
 /*modificamos el h1 del archivo experiencias*/
 .titulo-experiencias {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
   color: white;
   font-weight: 500;
-  font-variant: small-caps;
-  text-decoration: underline;
-  text-align: left;
 }
 
 /*modificamos los parrafos dentro del main del archivo experiencias*/
@@ -622,12 +619,8 @@
 
 /*modificamos el h1 de ubicacion*/
 .titulo-ubic {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  text-decoration: underline;
   color: #283F3B;
   font-weight: bolder;
-  text-align: left;
   padding: 10px;
 }
 

@@ -1,6 +1,6 @@
 /*editamos el footer*/
 .pie-pagina-index{
-    background-color: #99DDC8;
+    background-color: $color-navegador;
     width: 100%;
     margin-top: 150px;
     padding: 15px;
@@ -18,18 +18,25 @@
 
 /*div con las redes del footer*/
 .redes-sociales{
-    color: gray;
+    color: $color-parrafos;
     font-weight: bold;
     text-decoration: none;
 }
 /*modificamos el instagram del footer*/
 .redes-sociales-insta{
-    color: gray;
+    color: $color-parrafos;
     text-decoration: none;
     font-weight: bold;
 }
 /*editamos el copyright del pie de pagina*/
 .pie-pagina-parrafo{
-    color: gray;
+    color: $color-parrafos;
     font-weight: bold;
+}
+/*editamos icono sobre*/
+.bi-envelope{
+    color: white;
+    &:visited{
+        color: white;
+    }
 }
