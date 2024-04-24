@@ -8,7 +8,15 @@
     margin-left: 15px;
     margin-right: 15px;
     width: 40%;
+    @media(max-width:992px){
+        font-size: 16px;
+        width: 60%;
+    }
+    @media(max-width:576px){
+        width: 90%;
+    }
 }
+
 /* div del formulario de consultas*/
 .formulario-usuario-grupo{
     padding-top: 10px;
@@ -16,10 +24,10 @@
 }
 .formulario-usuario-grupo-input{
     border: 1px solid white;
-}
-/*modificamos los imput del formulario al hacerle click*/
-.formulario-usuario-grupo-input:focus{
-    outline: none;
+    /*modificamos los imput del formulario al hacerle click*/
+    &:focus{
+        outline: none;
+    }
 }
 
 /*modificamos el boton para enviar el formulario*/

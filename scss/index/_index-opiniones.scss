@@ -6,16 +6,32 @@
     padding: 15px;
     gap: 50px;
     position: relative;
+    @media(max-width:576px){
+        height: 900px;
+        margin-top: 600px;
+        gap: 10px;
+    }
 }
 /*divs con los h1,p e img adentro*/
 .seccion-opinion{
     margin: 10px;
     width: 35%;
+    @media(max-width:576px){
+        margin: 0px;
+        width: 100%;
+    }
 }
 /*img adentros de los div de opinion*/
 .seccion-opiniones-img{
     width: 150px;
     height: 30px;
+    @media(max-width:576px){
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        top: 900px;
+        left: 0px;
+    }
 }
 /*titulos dentro de los divs de opiniones*/
 .seccion-opinion-titulo{
@@ -31,9 +47,18 @@
     position: absolute;
     top: 250px;
     left: 600px;
+    @media(max-width:992px){
+            left: 400px;
+    }
+    @media(max-width:768px){
+        left: 300px;
+    }
 }
 /*parrafos adentro de la seccion opiniones*/
 .seccion-opinion-parrafo{
     color: white;
     font-size: 15px;
+    @media(max-width:576px){
+        font-size: 20px;
+    }
 }

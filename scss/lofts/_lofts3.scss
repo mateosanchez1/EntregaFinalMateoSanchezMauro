@@ -8,6 +8,12 @@
 /*modificamos div con h2 y p del loft 3*/
 .texto-loft3{
     width: 400px;
+    @media(max-width:992px){
+        width: 600px;
+    }
+    @media(max-width:576px){
+        width: 80%;
+    }
 }
 
 /*modificamos titulo h2 del loft3*/
@@ -20,4 +26,7 @@
     font-variant: small-caps;
     text-decoration: underline;
     text-align: left;
+    @media(max-width:576px){
+        width: 100%;   
+    }
 }

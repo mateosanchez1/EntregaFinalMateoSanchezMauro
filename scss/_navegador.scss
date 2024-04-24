@@ -22,14 +22,15 @@
     padding-right: 10px;
 }
 /*links adentro del nav bar*/
-.nav-link a{
+.nav-link {
     font-size: 15px;
     color: white;
     font-weight: bold;
     margin-right: 25px;
+    /*cuando posicionamos el mouse adentro del link*/
+    &:hover{
+        background-color: white;
+        transition: 0.5s;
+    }
 }
-/*cuando posicionamos el mouse adentro del link*/
-.nav-link:hover{
-    background-color: white;
-    transition: 0.5s;
-}
+

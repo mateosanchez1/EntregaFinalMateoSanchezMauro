@@ -8,6 +8,12 @@
 /*DIV con h2 y p del loft4*/
 .texto-loft4{
     width: 400px;
+    @media(max-width:992px){
+        width: 600px;
+    }
+    @media(max-width:576px){
+        width: 80%;
+    }
 }
 
 /*modificamos el titulo h3 del loft4*/
@@ -20,6 +26,9 @@
     font-variant: small-caps;
     text-decoration: underline;
     text-align: left;
+    @media(max-width:576px){
+        width: 100%;   
+    }
 }
 
 /*modificamos los parrafos de ambos lofts 3 y 4*/
@@ -37,4 +46,16 @@
     height: 400px;
     margin-top: 20px;
     border: 1px solid white;
+    @media(max-width:992px){
+        width: 600px; 
+        height: 360px;
+        margin-left: 50px;
+    }
+    @media(max-width:768px){
+        width: 90%; 
+        margin-left: 0px;
+    }
+    @media(max-width:576px){
+        margin-left: 15px;
+    }
 }

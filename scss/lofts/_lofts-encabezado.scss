@@ -2,6 +2,12 @@
 .encabezado-img{
     width: 100%;
     height: 500px;
+    @media(max-width:992px){
+        height: 400px;
+    }
+    @media(max-width:576px){
+        height: 300px;
+    }
 }
 
 /*modificamos encabezado lofts*/
@@ -17,6 +23,9 @@
     padding: 10px;
     margin: 20px;
     border: 1px solid gray;
+    @media(max-width:576px){
+        width: 80%;
+    }    
 }
 
 /*modificamos h1 del encabezado de lofts*/
@@ -26,6 +35,9 @@
     color: #283F3B;
     font-size: 25px;
     font-weight: bold;
+    @media(max-width:576px){
+        font-size: 20px;
+    }
 }
 
 /*modificamos ul que contiene li y a de encabezado lofts*/
@@ -46,10 +58,9 @@
     color: gray;
     list-style: square;
     text-decoration: none;
-}
-
-/*cuando nos posicionamos sobre los links (a) del encabezado*/
-.encabezado-lista-text:hover{
-    transition: 0.5s;
-    color: black ;
+    /*cuando nos posicionamos sobre los links (a) del encabezado*/
+    &:hover{
+        transition: 0.5s;
+        color: black ;
+    }
 }

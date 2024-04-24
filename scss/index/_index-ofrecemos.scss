@@ -1,8 +1,21 @@
+@media(max-width:768px){
+    .body{
+        width: 100%;
+    }
+}
 /* seccion con imagen y div*/
 .seccion-ofrecemos{
     width: 100%;
     height: 700px;
     display: flex;
+    /*aplicamos medias query para pantallas desde 1024px a 992px*/
+    @media(max-width:1024px){
+        height: 1000px;
+        margin-bottom: 0px;    
+    }
+    @media(max-width:576px){
+        height: 100%;
+    }
 }
 
 /*img dentro de la seccion*/
@@ -10,6 +23,14 @@
     height: 80%;
     width: 60%;
     margin-left: 100px;
+    @media(max-width:1024px){
+        height: 50%;
+        width: 100%;
+        margin-left: 0px;
+    }
+    @media(max-width:768px){
+            height: 40%;
+    }
 }
 
 /*div con el h1 y parrafors*/
@@ -21,6 +42,18 @@
     position: absolute;
     left: 600px;
     top: 250px;
+    /*aplicamos medias query para pantallas desde 1024px a 992px*/
+    @media(max-width:1024px){
+        width: 100%;
+        height: 400px;
+        left: 0px;
+        top: 750px;
+    }
+    @media(max-width:576px){
+        padding: 10px 0px 0px 0px;
+        top: 450px;
+        height: 100%;
+    }
 }
 
 /*h1 dentro del div de la seccion*/

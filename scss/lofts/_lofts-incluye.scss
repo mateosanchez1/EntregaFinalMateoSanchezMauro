@@ -35,5 +35,8 @@
     font-weight: 500;
     font-variant: small-caps;
     text-decoration: underline;
-    text-align: left;    
+    text-align: left;
+    @media(max-width:576px){
+        width: 100%;
+    }    
 }
