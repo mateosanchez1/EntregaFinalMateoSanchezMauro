@@ -3,6 +3,7 @@
         width: 100%;
     }
 }
+
 /* seccion con imagen y div*/
 .seccion-ofrecemos{
     width: 100%;
@@ -15,6 +16,7 @@
     }
     @media(max-width:576px){
         height: 100%;
+    
     }
 }
 
@@ -47,7 +49,7 @@
         display: flex;
         flex-direction: column;
         position: unset;
-        margin-top: 15px;
+        margin-top: 30px;
         width: 100%;
         height: auto;
     }

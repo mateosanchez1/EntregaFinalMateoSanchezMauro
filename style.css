@@ -146,7 +146,7 @@
     display: flex;
     flex-direction: column;
     position: unset;
-    margin-top: 15px;
+    margin-top: 30px;
     width: 100%;
     height: auto;
   }
@@ -180,6 +180,7 @@
   gap: 50px;
   position: relative;
   margin-bottom: 100px;
+  margin-top: 0px;
 }
 @media (max-width: 768px) {
   .seccion-opiniones {
@@ -189,7 +190,7 @@
 @media (max-width: 576px) {
   .seccion-opiniones {
     height: 900px;
-    margin-top: 600px;
+    margin-top: 20px;
     gap: 10px;
     margin-bottom: 200px;
   }
@@ -199,6 +200,12 @@
 .seccion-opinion {
   margin: 10px;
   width: 35%;
+  margin-right: 50px;
+}
+@media (max-width: 768px) {
+  .seccion-opinion {
+    margin-right: 10px;
+  }
 }
 @media (max-width: 576px) {
   .seccion-opinion {
@@ -234,8 +241,8 @@
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
-  top: 280px;
-  left: 570px;
+  top: 330px;
+  left: 600px;
 }
 @media (max-width: 992px) {
   .seccion-opinion-img {
