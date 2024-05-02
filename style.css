@@ -307,11 +307,34 @@
   text-decoration: none;
 }
 
+/*modificamos div con icono y numero de telefono*/
+.redes-sociales-telefono {
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+.redes-sociales-telefono:hover {
+  text-decoration: underline;
+  color: darkblue;
+  transform: translate(0px, -3px);
+}
+
+/*modificamos numero de telefono del footer*/
+.redes-sociales-numero-telefono {
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+
 /*modificamos el instagram del footer*/
 .redes-sociales-insta {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 4px;
+}
+.redes-sociales-insta:hover {
+  transform: translate(0px, -3px);
+  color: darkblue;
 }
 
 /*editamos el copyright del pie de pagina*/
@@ -321,11 +344,13 @@
 }
 
 /*editamos icono sobre*/
-.bi-envelope {
+.redes-sociales-mail {
   color: white;
+  transition: 0.5s;
 }
-.bi-envelope:visited {
-  color: white;
+.redes-sociales-mail:hover {
+  transform: translate(0px, -3px);
+  color: darkblue;
 }
 
 /* imagen adentro de todos los encabezados */
