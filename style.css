@@ -729,7 +729,7 @@
 /*imagen en el main de consultas*/
 .img-consulta {
   width: 300px;
-  height: 430px;
+  height: 470px;
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -749,14 +749,20 @@
   color: white;
   font-weight: 500;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-right: 15px;
   width: 40%;
 }
 @media (max-width: 992px) {
   .formulario-usuario {
+    width: 100%;
     font-size: 16px;
-    width: 60%;
+    align-items: center;
+  }
+}
+@media (max-width: 776px) {
+  .formulario-usuario {
+    align-items: start;
   }
 }
 @media (max-width: 576px) {
@@ -770,6 +776,21 @@
   padding-top: 10px;
   width: 90%;
 }
+@media (max-width: 992px) {
+  .formulario-usuario-grupo {
+    width: 60%;
+  }
+}
+@media (max-width: 776px) {
+  .formulario-usuario-grupo {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .formulario-usuario-grupo {
+    width: 90%;
+  }
+}
 
 .formulario-usuario-grupo-input {
   border: 1px solid white;
@@ -782,6 +803,7 @@
 /*modificamos el boton para enviar el formulario*/
 .boton-enviar {
   border-radius: 5px;
+  margin-top: 10px;
   padding: 2px 5px 2px 2px;
   background-color: white;
   color: black;
