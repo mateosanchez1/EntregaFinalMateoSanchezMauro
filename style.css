@@ -53,7 +53,7 @@
   /*cuando posicionamos el mouse adentro del link*/
 }
 .nav-link:hover {
-  background-color: rgb(141, 138, 138);
+  background-color: white;
   transition: 1s;
 }
 
@@ -453,7 +453,7 @@
 /*modificamos titulo h2 del loft3*/
 #loft-indice3 {
   width: 400px;
-  color: #d7c0c4;
+  color: white;
   font-weight: 500;
 }
 @media (max-width: 576px) {
@@ -487,7 +487,7 @@
 /*modificamos el titulo h3 del loft4*/
 #loft-indice4 {
   width: 400px;
-  color: #d7c0c4;
+  color: white;
   font-weight: 500;
 }
 @media (max-width: 576px) {
@@ -564,7 +564,7 @@
 /*modificamos h4 de la seccion servicion de loft*/
 #incluye-indice {
   width: 400px;
-  color: #d7c0c4;
+  color: white;
   font-weight: 500;
 }
 @media (max-width: 576px) {
@@ -663,7 +663,7 @@
 
 /*modificamos el h1 de ubicacion*/
 .titulo-ubic {
-  color: #234d20;
+  color: white;
   font-weight: bolder;
   padding: 10px;
 }

@@ -18,7 +18,7 @@
 /*modificamos el h1 de ubicacion*/
 .titulo-ubic{
     @extend %titulos;
-    color: $color-terciario;
+    color: $color-parrafos;
     font-weight: bolder;
     padding: 10px; 
 }    

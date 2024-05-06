@@ -30,7 +30,7 @@
 #incluye-indice{
     @extend %titulos;
     width: 400px;
-    color: #d7c0c4;
+    color: $color-parrafos;
     font-weight: 500;
     @media(max-width:576px){
         width: 100%;
