@@ -1,6 +1,6 @@
 /*h1 dentro del encabezado de consultas*/
 .titulo-consultas{
-    background-color: #5c8578;
+    background-color: $color-contactos;
     width: 100%;
     font-size: 30px;
     color: $color-parrafos;
@@ -13,7 +13,7 @@
 
 /*modificamos el color del main de consultas*/
 .principal-consultas{
-    background-color: #5c8578;
+    background-color: $color-contactos;
     width: 100%;
     gap: 200px;
     padding-bottom: 30px;
