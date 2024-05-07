@@ -44,16 +44,23 @@
 }
 
 /*links adentro del nav bar*/
-.nav-link {
+.nav-item a {
   font-size: 15px;
   color: white;
+}
+.nav-item a:hover {
+  color: white;
+}
+
+/*links adentro del nav bar*/
+.nav-link {
   border-radius: 5px;
   font-weight: bold;
   margin-right: 25px;
   /*cuando posicionamos el mouse adentro del link*/
 }
 .nav-link:hover {
-  background-color: white;
+  background-color: gray;
   transition: 1s;
 }
 

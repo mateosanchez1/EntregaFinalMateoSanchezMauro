@@ -26,16 +26,28 @@
     color: $color-parrafos;
     padding-right: 10px;
 }
+
+/*links adentro del nav bar*/
+.nav-item{
+    a{
+        font-size: 15px;
+        color: $color-parrafos;
+        &:hover{
+            color: $color-parrafos;
+        }
+    }
+    
+
+}
+
 /*links adentro del nav bar*/
 .nav-link {
-    font-size: 15px;
-    color: $color-parrafos;
     border-radius: 5px;
     font-weight: bold;
     margin-right: 25px;
     /*cuando posicionamos el mouse adentro del link*/
     &:hover{
-        background-color: white;
+        background-color: gray;
         transition: 1s;
     }
 }
