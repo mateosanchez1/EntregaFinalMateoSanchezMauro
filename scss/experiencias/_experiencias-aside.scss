@@ -3,8 +3,26 @@
     width: 100%;
 }
 
-/*modifcamos imagenes del aside de experiencias*/
-.img-exp{
+/*modifcamos imagen 1 del aside de experiencias*/
+.img-exp1{
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    border: $border-img;
+    margin: 10px;
+}
+
+/*modifcamos imagen 2 del aside de experiencias*/
+.img-exp2{
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    border: $border-img;
+    margin: 10px;
+}
+
+/*modifcamos imagen 2 del aside de experiencias*/
+.img-exp3{
     width: 410px;
     height: 400px;
     object-fit: cover;
